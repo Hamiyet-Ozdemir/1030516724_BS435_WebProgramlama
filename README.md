@@ -1,1 +1,3 @@
-# 1030516724_BS435_WebProgramlama
+Öğrenci Numarası: 1030516724
+Öğrenci Adı: Hamiyet Özdemir
+Ders Adı: BS435 Web Programlama
