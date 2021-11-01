@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find the dog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Find the dog</h2>
+<img class="card filter" onclick="clickCard(event)">
+<img class="card filter" onclick="clickCard(event)" >
+<img class="card filter" onclick="clickCard(event)">
+<label> <p>Last Hype</p> </label>
+<label> <p id="count">2</p> </label>
+<br>
+<br>
+
+<div class="message" id="message">
+    <p id="areaId">Click to find the dog</p>
+    <p id="winId" style="display: none;">Click <span class="link" onclick="againGame(event)">here</span> for the new game</p>
+    <p id="loseId" style="display: none;">Click <span class="link" onclick="againGame(event)">here</span> for the new game</p>
+</div>
+<script src="kod.js"></script>
+</body>
+</html>
